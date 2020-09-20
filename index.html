@@ -38,23 +38,21 @@
     .image {
     width: 200px;
     height: auto;
-    margin-top: 10px;
-    float: left;
-    margin-right: 25px;
+    /* margin-top: 10px; */
+    float: center;
     }
 
     .navbar {
     border-color: #ddd;
     border-bottom: 2px solid #ccc;
-
     }
 
     .navbar-brand {
     text-align: center;
-    font-size: 30px;
+    font-size: 36px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 300px;
-    height: 60px;
+    /* width: 300px; */
+    /* height: 60px; */
     }
     
     .footer {
@@ -70,11 +68,30 @@
     .card-body {
     font-size: 30px;
     line-height: 49px;
+    text-align: center;
     color: #318a87;
     border-bottom: 3px solid #ddd;
     padding-bottom: 20px;
     }
+
+    .row {
+    text-align: center;
+    column-fill: auto;
     
+    }
+
+    #summary {
+        text-align: left;
+    }
+
+    #project {
+        border: #318a87;
+        border-style: solid;
+        border-style: 10px ;
+        padding: 10px;
+
+    }
+   
     
     
     </style>
@@ -85,11 +102,11 @@
 
     <nav class="navbar navbar-expand navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand text-dark text-align" href="/">Jonathan Handy</a>
+            <a class="navbar-brand text-dark text-align-center" href="/">Jonathan Handy</a>
             <div class= "icons">
                 <a href="https://www.linkedin.com/in/jhandy4/" target="_blank"><i class="fa fa-linkedin iconsTop"></i></a><a href= "https://github.com/jhandy4" target="_blank">
-                    <i style="font-size:24px" class="fa">&#xf09b;</i></a>
-                <a href="ResumePlaceholder.pdf"><i class="fa fa-file-pdf-o" style="font-size:32px;color:red"></i></a>
+                    <i style="font: size 50;px" class="fa">&#xf09b;</i></a>
+                <!-- <a href="ResumePlaceholder.pdf"><i class="fa fa-file-pdf-o" style="font-size:32px;color:red"></i></a> -->
 
         </div>
         </div>
@@ -117,8 +134,8 @@
             <div class="col-lg-3">
                 <img class="img img-thumbnail" src="assets/images/ScaledPic.jpg">
             </div>
-            <div class="col-lg-9">
-                <p>Straight-shooter with a reputation for getting the job done. I am considered a jack-of-all trades who promotes efficiency.</p>
+            <div class="col-lg-9" id="summary">
+                <p>Straight-shooter with a reputation for getting the job done. I am a jack-of-all trades who enthusiastically promotes efficiency.</p>
                 
                 <p>I enjoy solving problems, process improvement, and training others. I believe in planning and continuous measurable improvement.</p>
 
@@ -144,67 +161,70 @@
         </div>
         
 
-        <br>
-
-
             <div class="row">
                 <div class="col-lg-6">
-                   <h3><a href="https://shopera2020.herokuapp.com/" id="depLink" target="_blank">Shopera</a></h3>
+<br>        
+<br>                   <h3><a href="https://shopera2020.herokuapp.com/" id="depLink" target="_blank">Shopera</a></h3>
                         <div>
-                            <img src="assets/images/Shopera.png" alt="Project 3" class="image">
+                            <img src="assets/images/Shopera.png" alt="Project 3" class="image" id="project">
                         </div>
                         <!-- <div class="caption">
                         </div> -->
                 </div>
                 
-                
                 <div class="col-lg-6">
-                    <h3><a href="https://shopera2020.herokuapp.com/" id="depLink" target="_blank">Know Your Vote</a></h3>
+<br>
+<br>                    <h3><a href="https://jhandy4.github.io/Know-Your-Vote/" id="depLink" target="_blank">Know Your Vote</a></h3>
                         <div>
-                            <img src="assets/images/technics-q-c-640-480-2.jpg" alt="Project 1" class="image">
+                            <img src="assets/images/know-your-vote.png" alt="Project 1" class="image" id="project">
                         </div>
                         <!-- <div class="caption">
                         </div> -->
                 </div>
             </div>
-<br>
-<br>
+
             <div class="row">
                 <div class="col-lg-6">
+<br>   
+<br> 
                     <h3><a href="https://quaranstream.herokuapp.com/" id="depLink" target="_blank">Quaranstream</a></h3>
                         <div>
-                            <img src="assets/images/quaranstream.png" alt="Project 2" class="image">
+                            <img src="assets/images/quaranstream.png" alt="Project 2" class="image" id="project">
                         </div>
                         <!-- <div class="caption">
                         </div> -->
                 </div>
- <br>   
- <br>   
+  
                 <div class="col-lg-6">
-                    <h3><a href="https://jhandy4-budget-tracker.herokuapp.com/" id="depLink" target="_blank">Budget Tracker</a></h3>
+<br>
+<br>
+                        <h3><a href="https://jhandy4-budget-tracker.herokuapp.com/" id="depLink" target="_blank">Budget Tracker</a></h3>
                         <div>
-                           <img src="assets/images/budget-tracker.png" alt="Budget Tracker" class="image">
+                           <img src="assets/images/budget-tracker.png" alt="Budget Tracker" class="image" id="project">
                         </div>
                         <!-- <div class="caption">
                         </div> -->
                     </div>
             </div>
-<br>
-<br>
+
             <div class="row">
                 <div class="col-lg-6">
+<br>
+<br>
                     <h3><a href="https://jhandy4-workout-tracker.herokuapp.com/" id="depLink" target="_blank">Workout Tracker</a></h3>
                         <div>
-                            <img src="assets/images/workout-tracker.png" alt="Workout Tracker" class="image">
-
+                            <img src="assets/images/workout-tracker.png" alt="Workout Tracker" class="image" id="project">
                         </div>
                         <!-- <div class="caption">
                         </div>   -->
                 </div>
+
             <div class="col-lg-6">
+<br>
+<br>
                 <h3><a href="https://jhandy4-note-taker.herokuapp.com/" id="depLink" target="_blank">Note Taker</a></h3>
                     <div>
-                        <img src="assets/images/note-taker.png" alt="Note Taker" class="image">
+                        <img src="assets/images/note-taker.png" alt="Note Taker" class="image" id="project">
                     </div>
                     <!-- <div class="caption">
                     </div>   -->
